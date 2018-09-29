@@ -1,0 +1,224 @@
+* {
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/* BODY */
+
+* {
+    /*font-family: 'Tajawal', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* COLORS */
+.dark-green {
+    color: #17463e;
+}
+
+.light-green {
+    color: #5fbe46;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#soon {
+    background-color: red;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 60px;
+}
+
+/* CONTACT BAR */
+.contact-bar {
+    background-color: #17463e;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    padding: 4px;
+}
+
+.fa-envelope-square,
+.fa-facebook-f,
+.fa-twitter,
+.fa-instagram {
+    color: white;
+}
+
+.icons {
+    width: 20px;
+    vertical-align: middle;
+    margin: 2px;
+}
+
+.fa-envelope-square:hover,
+.fa-facebook-f:hover,
+.fa-twitter:hover,
+.fa-instagram:hover {
+    color: #5fbe46;
+}
+
+/* LOGO */
+.neighborhood-heading {
+    font-size: 15px;
+    color: black;
+}
+
+.click {
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+}
+
+.click:hover {
+    color: #5fbe46;
+}
+
+.dropdown-item:hover {
+    color: #5fbe46;
+}
+
+/* NAV BAR */
+.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.navbar {
+    background-color: #17463e;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+    text-emphasis: bold;
+    text-align: center;
+    margin: 10px;
+}
+
+#home,
+#whoweare,
+#bankaccount,
+#openaccount,
+#business,
+#management,
+#calendar {
+    color: white;
+}
+
+#home:hover,
+#whoweare:hover,
+#bankaccount:hover,
+#openaccount:hover,
+#business:hover,
+#management:hover,
+#calendar:hover {
+    color: #5fbe46;
+}
+
+
+/* NEIGHBORHOOD*/
+.heading {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.neighborhood{
+    background-color: #5fbe46;
+    color: black;
+    margin: 4px;
+    font-size: 20px;
+}
+
+.dropdown-item {
+    font-weight: bold;
+}
+
+.neighborhood-dropdown {
+    background-color: #5fbe46;
+    color: black;
+    margin: 4px;
+    font-size: 18px;
+}
+
+/* DEMOGRAPHICS */
+.demographic-image {
+    border-radius: 50%;
+    border: 3px solid #17463e;
+    margin: 4px;
+
+}
+
+.demographic {
+    background-color: #5fbe46;
+    color: black;
+}
+
+.demographics-next {
+    background-color: #17463e;
+    color: white;
+    margin-bottom: 5px;
+}
+
+/* SERVICE */
+.service-image {
+    border: 3px solid #17463e;
+    margin: 4px;
+}
+
+.service {
+    background-color: #5fbe46;
+    color: black;
+}
+
+.services-next {
+    background-color: #17463e;
+    color: white;
+    margin-bottom: 5px;
+}
+
+/* ABOUT */
+.about {
+    font-size: 18px;
+}
+
+.unbanked,
+.underbanked {
+    color: #5fbe46;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.unbanked:hover,
+.underbanked:hover {
+    color: #17463e;
+}
+
+.modal-title {
+    color: #17463e;
+    font-weight: bold;
+}
+
+.button-close {
+    background-color: #17463e;
+    color: white;
+}
+
+/*BOTTOM CONTACT BAR */
+.bottombar-link {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    padding: 4px;
+    margin: 3px;
+}
+
+.bottombar-link:hover {
+    color: #5fbe46;
+}
